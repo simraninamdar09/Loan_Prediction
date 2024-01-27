@@ -17,7 +17,7 @@ data = pd.read_csv("Loan prediction.csv")
 #Replacing +3 to3
 data['Dependents'] = data['Dependents'].replace('3+','3')
 #skewness of column
-data['Loan_Amount_Term'] = np.log(data['Loan_Amount_Term'])
+#data['Loan_Amount_Term'] = np.log(data['Loan_Amount_Term'])
 #dropping column
 data.drop(columns=['ApplicantIncome','CoapplicantIncome','LoanAmount','Totalincome','Loan_ID'],inplace= True)
 
