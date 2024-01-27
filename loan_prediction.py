@@ -26,7 +26,6 @@ data['Gender'].fillna(data['Gender'].mode()[0],inplace = True)
 data['Dependents'].fillna(data['Dependents'].mode()[0],inplace = True)
 data['Self_Employed'].fillna(data['Self_Employed'].mode()[0],inplace = True)
 data['Married'].fillna(data['Married'].mode()[0],inplace = True)
-data['LoanAmount'].fillna(data['LoanAmount'].mode()[0],inplace = True)
 data['Loan_Amount_Term'].fillna(data['Loan_Amount_Term'].mode()[0],inplace = True)
 data['Credit_History'].fillna(data['Credit_History'].mode()[0],inplace = True)
 
