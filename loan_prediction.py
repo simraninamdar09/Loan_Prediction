@@ -19,7 +19,7 @@ data['Dependents'] = data['Dependents'].replace('3+','3')
 #skewness of column
 #data['Loan_Amount_Term'] = np.log(data['Loan_Amount_Term'])
 #dropping column
-#data.drop(columns=['ApplicantIncome','CoapplicantIncome','LoanAmount','Totalincome','Loan_ID'],inplace= True)
+data.drop(columns=['ApplicantIncome','CoapplicantIncome','LoanAmount','Loan_ID'],inplace= True)
 
 #filling null values
 data['Gender'].fillna(data['Gender'].mode()[0],inplace = True)
