@@ -58,7 +58,7 @@ Married = st.selectbox('Married', data['Married'].unique())
 Dependents = st.selectbox('Dependents', data['Dependents'].unique())
 Education = st.selectbox('Education', data['Education'].unique())
 Self_Employed = st.selectbox('Self_Employed', data['Self_Employed'].unique())
-Loan_Amount_Term = st.selectbox('Loan_Amount_Term', data['Loan_Amount_Term'].unique())
+#Loan_Amount_Term = st.selectbox('Loan_Amount_Term', data['Loan_Amount_Term'].unique())
 Credit_History = st.selectbox('Credit_History', data['Credit_History'].unique())
 Property_Area = st.selectbox('Property_Area', data['Property_Area'].unique())
 
