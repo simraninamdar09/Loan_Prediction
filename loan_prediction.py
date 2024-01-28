@@ -69,7 +69,7 @@ if st.button('Loan Status'):
         'Dependents': Dependents,
         'Education': Education,
         'Self_Employed': Self_Employed,
-        'Loan_Amount_Term': Loan_Amount_Term,
+        #'Loan_Amount_Term': Loan_Amount_Term,
         'Credit_History' : Credit_History,
         'Property_Area' : Property_Area
     }
