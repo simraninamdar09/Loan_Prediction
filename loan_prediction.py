@@ -75,7 +75,7 @@ if st.button('Prevention Type'):
     }
 
     df1 = pd.DataFrame(df, index=[1])
-    pred = bag_c.predict(df1)
+    pred = bag1.predict(df1)
 
     if bag1.predict(pred) == 1:
          print("Loan approved")
