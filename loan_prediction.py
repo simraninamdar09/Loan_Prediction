@@ -62,7 +62,7 @@ Loan_Amount_Term = st.selectbox('Loan_Amount_Term', data['Loan_Amount_Term'].uni
 Credit_History = st.selectbox('Credit_History', data['Credit_History'].unique())
 Property_Area = st.selectbox('Property_Area', data['Property_Area'].unique())
 
-if st.button('Prevention Type'):
+if st.button('Loan Status'):
     df = {
         'Gender': Gender,
         'Married': Married,
@@ -81,7 +81,7 @@ if st.button('Prevention Type'):
          prediction_value = "Loan approved"
     else:
        prediction_value = "Not Loan Approved"
-    st.title("Loan Status " + str(prediction_value))
+    st.title(str(prediction_value))
 
 
 
