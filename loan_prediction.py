@@ -44,8 +44,8 @@ x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_
 #Bagging
 bag_c=BaggingClassifier()
 bag1 =bag_c.fit(x_train,y_train)
-#bag1.score(x_train,y_train)
-#bag1.score(x_test,y_test)
+bag1.score(x_train,y_train)
+bag1.score(x_test,y_test)
 #Pickel file
 filename = 'final_Bagging_model.pkl'
 pickle.dump(bag_c, open(filename, 'wb'))
