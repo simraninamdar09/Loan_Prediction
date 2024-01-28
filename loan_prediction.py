@@ -78,9 +78,9 @@ if st.button('Loan Status'):
     predictions = bag_c.predict(df1)
 
     if predictions.any() == 1:
-         prediction_value = "Loan approved"
+         prediction_value = "Loan Not approved"
     else:
-       prediction_value = "Not Loan Approved"
+       prediction_value = "Loan Approved"
     st.title(str(prediction_value))
 
 
