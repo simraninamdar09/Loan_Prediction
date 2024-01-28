@@ -78,9 +78,9 @@ if st.button('Prevention Type'):
    #predictions = bag_c.predict(df1)
 
     if bag1.predict(pred) == 1:
-    print("Loan approved")
-else:
-        print("Not Loan Approved")
+         print("Loan approved")
+    else:
+       print("Not Loan Approved")
     st.title("Loan Status " + str(prediction_value))
 
 
