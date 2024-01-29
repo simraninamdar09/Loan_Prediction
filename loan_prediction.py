@@ -52,6 +52,7 @@ pickle.dump(bag_c, open(filename, 'wb'))
 bag1.fit(x, y)
 pk = bag1.predict(x_test)
 
+st.title("Loan Prdiction")
 
 Gender = st.selectbox('Gender', data['Gender'].unique())
 Married = st.selectbox('Married', data['Married'].unique())
